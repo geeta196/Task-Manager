@@ -1,28 +1,50 @@
-Project Overview: TaskManager
+# Task Manager
 
-TaskManager is a frontend-focused application built using React, HTML, CSS, and JavaScript.
-It allows users to create, edit, and manage tasks in a simple and interactive way.
+A simple Task Manager built with **React, HTML, CSS, and JavaScript**.  
+This project allows you to add, edit, and manage tasks with a clean and interactive interface.
 
-Key Features
+## Features
+- Add new tasks dynamically
+- Delete tasks
+- Mark tasks as completed
+- Filter tasks: All, Completed, Pending
+- Responsive design
 
-Add new tasks dynamically
 
-Edit existing tasks
+## Technologies Used
+- React
+- JavaScript
+- HTML
+- CSS
 
-Delete tasks
+## Folder Structure
+TaskManager/
+│
+├── public/
+├── src/
+│ ├── components/ # React components
+│ ├── App.js
+│ ├── index.js
+│ └── index.css
+├── package.json
+└── README.md
 
-Mark tasks as completed
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/geeta196/Task-Manager.git
+Navigate to the project directory:
 
-Responsive and clean UI with CSS styling
+bash
+Copy code
+cd Task-Manager
+Install dependencies:
 
-Component-based structure using React for reusability
+bash
+Copy code
+npm install
+Start the development server:
 
-Technologies Used
-
-React – for building the interactive UI and handling state
-
-JavaScript – for logic and dynamic functionality
-
-HTML – for the structure of the application
-
-CSS – for styling and layout
+bash
+Copy code
+npm start
